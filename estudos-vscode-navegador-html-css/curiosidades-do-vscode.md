@@ -1,4 +1,6 @@
+`ctrl + shift  + X` - Para ir até os plugins.
 
+`ctrl + shift  + E` - Para ir até a barra de árvore.
 
 - `ctrl + p + :"numero da linha"` - Para ir diretamente ao número da linha que você desejar editar.
 
