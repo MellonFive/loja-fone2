@@ -10,7 +10,7 @@
 
 `git commit -m`(Pasta old que você criava para o ponto de restaura do código) - Enviando os nossos arquivos para o repositório local. Ponto de checkpoint.
 
-`git commit -am` - Ponto de checkpoint. Enviando os nossos arquivos para o repositório local, porém esse comando funciona apenas para os arquivos modificados e não novos.
+`git commit -am` - É mesma coisa que o git commit -m. Porém funciona apenas com arquivos modificados e não novos.
 
 `git log` - Podemos ver todos os commit´s que fizemos, todos os checkpoint. Seja eles seus ou de seu time.
 
