@@ -1,18 +1,25 @@
 header {
     background-color: #e24647;
-}
-
-h1, a {
     color: #fff;
+    overflow: hidden; /* Quando você tem filhos flutuando(float) e quer que ele recalcula o novo contexto, colocar essa propriedade. */
+    margin: 0 115px;
+
+    padding: 55px 60px 95px;
 }
 
 h1 {
-    font-family: 'Roboto';
     font-size: 40px;
+    font-family: Arial, "Roboto", sans-serif;
+    float: left;
+}
+
+nav {
+    font-size: 21px;
+    font-family: 'Segoe UI', "Roboto" sans-serif;
+    float: right;
 }
 
 a {
-    font-family: 'Roboto';
-    font-size: 21px;
     text-decoration: none;
+    color: inherit;
 }
