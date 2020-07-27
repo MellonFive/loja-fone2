@@ -3,7 +3,6 @@ header {
     color: #fff;
     overflow: hidden; /* Quando você tem filhos flutuando(float) e quer que ele recalcula o novo contexto, colocar essa propriedade. */
     margin: 0 115px;
-
     padding: 55px 60px 95px;
 }
 
@@ -22,4 +21,5 @@ nav {
 a {
     text-decoration: none;
     color: inherit;
+    padding-left: 28px;
 }
