@@ -1,7 +1,6 @@
 .header-store {
     color: #fff;
-    overflow: hidden; /* Quando você tem filhos flutuando(float) e quer que ele recalcula o novo contexto, colocar essa propriedade. */
-
+    overflow: hidden; /* Quando você tem filhos flutuando(float) e quer que ele recalcula o novo contexto, colocar essa propriedade. Sempre lembrando que o pai é o header-store. */
 }
 
 .title {
