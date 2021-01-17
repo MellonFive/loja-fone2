@@ -1,5 +1,6 @@
 .button-store {
     display: inline-block;
+    box-sizing: border-box;
     background-color: #252c41;
     font-size: 20px;
     color: #fff;
@@ -10,4 +11,16 @@
     margin-right: 0;
     text-align: center;
     text-decoration: none;
+    border: none;
+}
+
+.button-store.-second /* Variação do botão comprar ou classe button-store. As classes são juntas porque eu quero mudar um elemento que tem essas duas classes juntas. Que é caso do nosso botão "adicionar no carrinho." */ {
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    width: 218px;
+    height: 60px;
+    line-height: 56px;
 }
