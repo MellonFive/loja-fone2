@@ -1,4 +1,4 @@
-.button-store {
+.button-store /* Botão principal (CTA). No próximo seletor está a variação desse botão. */ {
     display: inline-block;
     box-sizing: border-box;
     background-color: #252c41;
@@ -14,7 +14,7 @@
     border: none;
 }
 
-.button-store.-second /* Variação do botão comprar ou classe button-store. As classes são juntas porque eu quero mudar um elemento que tem essas duas classes juntas. Que é caso do nosso botão "adicionar no carrinho." */ {
+.button-store.-second /* Seletor de tag e. (button-store e -second) Veja variação no CSS(005). As classes estão juntas porque eu quero mudar um elemento que tem essas duas classes juntas. Que é caso do nosso botão "adicionar no carrinho." */ {
     color: #FFF;
     text-align: center;
     text-decoration: none;
