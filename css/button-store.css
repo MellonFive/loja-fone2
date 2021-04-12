@@ -14,10 +14,20 @@
     border: none;
 }
 
-/* Seletor de tag e. (button-store e -second quando tem duas classes juntas em um mesmo elemento. Declarando um seletor de classe desse jeito, estou dizendo que precisa ter essas duas classes em um mesmo elemento.) Veja variação no CSS(005). As classes estão juntas porque eu quero mudar um elemento que tem essas duas classes juntas. Que é caso do nosso botão "adicionar no carrinho." 
- Variando a classe buttons-store */ .button-store.-second  {
+/* Seletor de tag e. (button-store e -second quando tem duas classes juntas em um mesmo elemento. Declarando um seletor de classe desse jeito, estou dizendo que precisa ter essas duas classes em um mesmo elemento.) Veja variação no CSS(005). Que é caso do nosso botão "adicionar no carrinho." 
+Variando a classe buttons-store */ .button-store.-second  {
     background-color: transparent;
     border: 2px solid #FFF;
     width: 218px;
     line-height: 56px;
+    margin-right: 38px;
+}
+
+.button-store > button, 
+.button-store > a {
+    font-size: inherit;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    text-decoration: inherit;
 }
