@@ -2,4 +2,11 @@
     display: inline-block;
     width: 500px; /* De acordo com o zeplin a largura correta é de: 554px. Coloquei 500px por causa da minha tela. */
     vertical-align: middle;
+    position: relative;
+}
+
+.wrap-product > .buttons {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(calc(100% + 98px));
 }

@@ -23,6 +23,7 @@
             <h1 class="title">Logo</h1>
 
             <nav class="navigation">
+                <input type="search" placeholder="Busca">
                 <a class="action" href="http://collabcode.training">Produtos</a>
                 <a class="action" href="http://collabcode.training">Serviços</a>
                 <a class="action -last" href="http://collabcode.training">Carrinho(10)</a>
@@ -33,22 +34,34 @@
             <img src="img/fone.png" alt="Fone de ouvido">
         </figure>
 
-    <section class="wrap-product">
+    <section class="wrap-product"> <!-- Porque aqui tem uma section que não está estilizada igual o header-store? -->
         <dl class="description-product">
             <dt class="title">Fone top, feliz e caro </dt>
+            <dd class="item -star">
+                <img src="img/star-active.png" alt="Estrela" />
+                <img src="img/star-active.png" alt="Estrela" />
+                <img src="img/star-active.png" alt="Estrela" />
+                <img src="img/star-active.png" alt="Estrela" />
+                <img src="img/star.png" alt="Estrela">
+            </dd>
             <dd class="item">4.0 (97)</dd>
             <dd class="item -info"><strong class="contrast">Frete</strong> C$ 108</dd>
             <dd class="item -info -last"><strong class="contrast">Preço</strong> C$ 340</dd>
             
             <dd class="text">Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto com o  seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre..kkkk</dd>
             
-            <dd class="text"><a href="" class="action">Saber mais ... </a></dd>
+            <dd class="text -more">
+                <a href="" class="action">Saber mais ... </a>
+            </dd>
         </dl>
-    </section>
-    
-    <button class="button-store -second">Adicionar ao carrinho</button><!-- As classes estão juntas porque quero variar o botão adicionar carrinho. A base é o button store(CTA, comprar) e a variação é o -second(Adicionar no carrinho). -->
+  
+        <div class="buttons">
+            <button class="button-store -second">Adicionar ao carrinho</button><!-- As classes estão juntas porque quero variar o botão adicionar carrinho. A base é o button store(CTA, comprar) e a variação é o -second(Adicionar no carrinho). -->
         
-    <a  class="button-store" href="comprar.html">Comprar</a> <!-- Base da variação adicionar carrinho --> 
+            <a  class="button-store" href="comprar.html">Comprar</a> <!-- Base da variação adicionar carrinho -->
+        </div>
+    </section>
+
     </div>
 </body>
 </html>
