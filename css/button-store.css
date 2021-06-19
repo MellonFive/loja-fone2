@@ -15,6 +15,12 @@
     cursor: pointer;
 }
 
+.button-store:hover {
+    background-color: #fff;
+    color: #252c41;
+
+}
+
 /* Seletor de tag e. (button-store e -second quando tem duas classes juntas em um mesmo elemento. Declarando um seletor de classe desse jeito, estou dizendo que precisa ter essas duas classes em um mesmo elemento.) Veja variação no CSS(005). Que é caso do nosso botão "adicionar no carrinho." 
 Variando a classe buttons-store */ 
 .button-store.-second  {
@@ -23,6 +29,11 @@ Variando a classe buttons-store */
     width: 218px;
     line-height: 56px;
     margin-right: 38px;
+}
+
+.button-store.-second:hover  {
+   background-color: #252c41;
+   color: #e24647;
 }
 
 .button-store > button, 
