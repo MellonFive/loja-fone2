@@ -9,4 +9,3 @@ As principais linguagens que serão utilizadas nesse curso:
 * JS
 
 ![img1](img/readme/img1.png)
-
