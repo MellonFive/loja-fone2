@@ -1,11 +1,11 @@
-# Curso da collabcode - Projeto Loja Fone
+<h1 align="center">Curso da collabcode - Projeto Loja Fone</h1>
 
-Aqui estou fazendo um curso de HTML CSS e JS. Iremos fazer um projeto e-commerce de loja fone.
+<p>Aqui estou fazendo um curso de HTML CSS e JS. Iremos fazer um de projeto e-commerce de loja fone.</p>
 
-As principais linguagens que serão utilizadas nesse curso:
+<p>As principais tecnologias que serão utilizadas nesse curso:</p>
 
-* HTML
-* CSS
-* JS
+- HTML
+- CSS
+- JS
 
 ![img1](img/readme/img1.png)
