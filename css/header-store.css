@@ -3,6 +3,7 @@
     overflow: hidden; /* Quando você tem filhos flutuando(float) e quer que ele recalcula o novo contexto, colocar essa propriedade. Sempre lembrando que o pai é o header-store. */
     margin-bottom: 138px;
     padding-left: 60px;
+    cursor: pointer;
 }
 
 .header-store > .title {
@@ -10,6 +11,7 @@
     font-family: Arial, "Roboto", sans-serif;
     float: left;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .header-store > .navigation {
