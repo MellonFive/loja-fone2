@@ -19,15 +19,29 @@
     top: 8px;
     left: -47px;
     cursor: pointer;
+
+    transition: all 200ms linear;
+}
+
+.description-product > .item.-heart:active,
+.description-product > .item.-heart:focus {
+    transform: scale(0.9);
 }
 
 .description-product > .item.-star {
     margin-bottom: 10px;
     cursor: pointer;
+
+    transition: all 300ms linear;
 }
 
 .description-product > .item.-star + .item {
     margin-left: 7px;
+}
+
+.description-product > .item.-star:active,
+.description-product > .item.-star:focus {
+    transform: scale(0.95);
 }
 
 .description-product > .item.-info {
