@@ -47,7 +47,7 @@
 }
 
 .header-store .action:after {
-    content: "";
+    content: ""; /* Propriedade obrigatória para poder preencher um after. Estudar mais essa propriedade */
     height: 1px;
     width: 100%;
     background-color: #fff;
