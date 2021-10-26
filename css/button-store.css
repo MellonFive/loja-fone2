@@ -17,8 +17,7 @@
     transition: all 300ms linear;
 }
 
-.button-store:hover,
-.button-store:focus {
+.button-store:hover, .button-store:focus {
     background-color: #fff;
     color: #e24647;
 }

@@ -1,6 +1,6 @@
 .container-store {
     background-color: #e24647;
-    /* top bottom => X, left right => Y */
+    /* top bottom => Eixo X, left right => Eixo Y */
     width: 90%;
     padding: 55px 60px 165px 0;
     position: absolute;
